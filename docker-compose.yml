@@ -19,4 +19,4 @@ services:
       - react
     working_dir: /cypress
     volumes:
-      - ./:/cypress
+      - ./cypress:/cypress
