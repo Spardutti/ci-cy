@@ -15,8 +15,8 @@ jobs:
 
       # Start the Cypress container and run the tests
       - name: Start Cypress container
-        run: docker-compose run --rm cypress yarn run cypress run #--config baseUrl=http://react:5173
+        run: docker-compose run --rm cypress yarn run cypress run 
 
       # Stop the application container after the tests have finished
       - name: Stop application container
-        run: docker-compose down
+        run: docker-compose down   
